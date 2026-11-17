@@ -1,0 +1,11 @@
+[package]
+name = "tts-global-dictionary"
+version = "0.1.0"
+edition = "2021"
+description = "Shared global TTS dictionary, phonetic cleaner, and prompt formatter for Chastin's Discord TTS bots"
+
+[dependencies]
+emojis = "0.6"
+lazy_static = "1.4"
+regex = "1.10"
+serde_json = "1.0"
